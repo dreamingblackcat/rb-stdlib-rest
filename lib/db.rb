@@ -14,6 +14,7 @@ class DB
     @store.transaction do
       @store[@table_name][@_id.to_s] = item 
     end
+    item
   end
 
   def all
