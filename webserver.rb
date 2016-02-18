@@ -116,7 +116,8 @@ server.mount_proc '/books' do|req, res|
     end
   when "POST"
     begin
-      post_data = parse_post_data req.body      
+      post_data = parse_post_data req.body  
+      p post_data    
     rescue BadRequestError => e
       res.status = 400
       res.body   = {message: "Please add correct url-encoded form data fields"}.to_json
