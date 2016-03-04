@@ -1,6 +1,6 @@
 # rb-stdlib-rest
 
-This is a fun exercise of building a simple rest api web server using only ruby stdlib.
+This is a fun exercise of building a simple rest api web server using only ruby built-in libraries(core+stdlib).
 
 Note:**It was created using ruby-2.1.5 . Later versions of ruby has remove minitest from stdlib.**
 
@@ -19,8 +19,8 @@ The stdlib libraries used are
 
 Now the server will be up on `localhost:4000`.
 
-- CREATE            => POST /books        (body fields => title, author <currently only support x-www-form-urlencoded>)
-- UPDATE            => POST /books/:id    (body fields => title, author <currently only support x-www-form-urlencoded>)
+- CREATE            => POST /books        (body fields => title, author *currently only support x-www-form-urlencoded)
+- UPDATE            => POST /books/:id    (body fields => title, author *currently only support x-www-form-urlencoded)
 - READ COLLECTION   => GET  /books
 - READ SINGULAR     => GET  /books/:id
 - DELETE            => POST /books/:id/delete
