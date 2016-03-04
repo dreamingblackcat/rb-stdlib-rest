@@ -1,1 +1,2 @@
-db/*
+db/*.store
+db/*.pstore
