@@ -2,9 +2,9 @@ class DB
   def initialize(table_name, store)
     @store             = store
     @table_name        = table_name
-    @_id               = 0
     @store.transaction do
-      @store[@table_name] = Hash.new
+      @_id  = store[:_id] ||= 0
+      @store[@table_name] ||= Hash.new
     end    
   end
 
