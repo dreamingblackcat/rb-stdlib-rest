@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/dreamingblackcat/rb-stdlib-rest.svg?branch=master)](https://travis-ci.org/dreamingblackcat/mmunicode_rails)
 # rb-stdlib-rest
 
 This is a fun exercise of building a simple rest api web server using only ruby built-in libraries(core+stdlib).
