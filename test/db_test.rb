@@ -3,7 +3,7 @@ require 'pstore'
 require_relative '../lib/db'
 
 describe DB do
-  PSTORE = PStore.new "../db/test_db.pstore"
+  PSTORE = PStore.new File.dirname(__FILE__) + "/../db/test_db.pstore"
   Book    = Struct.new(:title, :author, :id)
   before do
     @db     = DB.new 'books', PSTORE
