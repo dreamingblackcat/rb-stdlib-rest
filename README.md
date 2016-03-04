@@ -2,7 +2,7 @@
 
 This is a fun exercise of building a simple rest api web server using only ruby built-in libraries(core+stdlib).
 
-Note:**It was created using ruby-2.1.5 . Later versions of ruby has remove minitest from stdlib.**
+Note:**It was created using ruby-2.1.5 . Tested on ruby-2.1.5 and ruby-2.3.0.
 
 The stdlib libraries used are
 
